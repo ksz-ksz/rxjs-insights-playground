@@ -1,11 +1,8 @@
 import { EMPTY, NEVER, interval, take, of } from 'rxjs';
-import { flow } from '@rxjs-insights/console';
+import { inspectEventsFlow } from '@rxjs-insights/console';
 import { switchMap } from 'rxjs/operators';
 
-document.body.textContent = `
-Check out the browser console.
-If you are running this example from StackBlitz, open this page in a separate window first.
-`;
+// Check out the browser console.
 
 const subscription = interval(100)
   .pipe(
@@ -25,4 +22,4 @@ const subscription = interval(100)
   )
   .subscribe();
 
-setTimeout(() => flow(subscription), 1000);
+setTimeout(() => inspectEventsFlow(subscription), 1000);

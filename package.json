@@ -5,9 +5,9 @@
     "start": "webpack serve"
   },
   "devDependencies": {
-    "@rxjs-insights/console": "^0.1.5",
-    "@rxjs-insights/plugin-webpack5": "^0.1.5",
-    "@rxjs-insights/rxjs7": "^0.1.5",
+    "@rxjs-insights/console": "^0.2.0",
+    "@rxjs-insights/plugin-webpack5": "^0.2.0",
+    "@rxjs-insights/rxjs7": "^0.2.0",
     "html-webpack-plugin": "^5.5.0",
     "ts-loader": "^9.2.8",
     "typescript": "^4.6.2",
