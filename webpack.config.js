@@ -26,7 +26,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Rxjs Insights',
+      template: path.resolve(__dirname, 'src', 'index.html'),
     }),
     new RxjsInsightsPlugin(),
   ],
